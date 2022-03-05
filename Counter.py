@@ -47,3 +47,18 @@ i = 0
 while i < len([1, 3, 5]):
     print(i)
     i += 1
+
+while True:
+    response = input("say something: ")
+    if response == "bye":
+        break
+
+# loop - continue
+# - with the continue we go back up to the for loop
+for item in my_list:
+    print(item)
+    continue
+
+
+# loop - pass
+# if u don't have anything yet - but this is really rare in production code
