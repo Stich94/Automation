@@ -1,4 +1,3 @@
-import mymodule
 
 
 def highest_num(list):
@@ -57,23 +56,8 @@ def outer():
     inner()
     print("outer: " + x)
 
-
-x = "Hello"
-x.upper
-[0]
-
-if 5 > 2:
     print("Five is greater than two!")
 
 
 car = {"brand": "Ford"}
 print(car["brand"])
-
-
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-
-print(dir(mymodule))
